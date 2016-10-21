@@ -1,0 +1,26 @@
+body {
+  overflow: hidden;
+}
+
+#druker {
+  width: 25%;
+  position: absolute;
+  animation-name: fly;
+  animation-duration: 15s;
+  left: 300%;
+  top: 10%;
+  -webkit-transform: rotate(90deg);
+}
+
+@keyframes fly {
+  0% {
+    width: 20%;
+    left: -100%;
+    top: -10px;
+  }
+  100% {
+    width: 25%;
+    left: 300%;
+    top: 10%;
+  }
+}
